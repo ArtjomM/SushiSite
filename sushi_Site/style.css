@@ -421,97 +421,41 @@ body {
 .menu-btn:hover {
   background-color: #a25618;
 }
-.gray-block {
-  text-align: center;
+.comment {
   background-color: #e5e5e5;
-}
-.guest-text {
   padding-top: 104px;
-  padding-bottom: 20px;
+  padding-bottom: 139px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.comment-text {
   font-size: 20px;
   font-weight: 400;
   font-style: italic;
 }
-.guest-img {
+.comment-img {
   border-radius: 50%;
 }
-.guest-who {
+.comment-type {
   padding-top: 17px;
   font-size: 20px;
   font-weight: 600;
 }
-.guest-name {
+.comment-name {
   padding-top: 9px;
-  padding-bottom: 139px;
   font-size: 20px;
   font-weight: 400;
 }
-.dishes-title-with-images {
+
+.galery-title {
   font-family: "Tinos", serif;
-  font-weight: 400;
-  font-size: 54px;
-  text-align: center;
-  padding-top: 101px;
-  padding-bottom: 59px;
-}
-.dishes-title-with-images span {
-  color: #d67e34;
-  font-size: 52px;
-}
-.image-content {
-  display: flex;
-  justify-content: center;
-}
-.table1-1 {
-  padding-right: 11px;
-  width: 555px;
-  height: 284px;
-}
-.table1-2 {
-  padding-right: 11px;
-  height: 284px;
-}
-.table1-3 {
-  height: 284px;
-}
-.table2-1 {
-  padding-right: 11px;
-  width: 284px;
-  height: 284px;
-  padding-top: 11px;
-}
-.table2-2 {
-  padding-right: 11px;
-  width: 256px;
-  height: 282px;
-  padding-right: 11px;
-  padding-top: 11px;
-}
-.table2-3 {
-  width: 536px;
-  height: 284px;
-  padding-top: 11px;
-}
-.our-cooks {
-  font-family: "Tinos", serif;
-  font-weight: 400;
   font-size: 54px;
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 107px;
+  margin-bottom: 60px;
 }
-.our-cooks span {
+.galery-title span {
   color: #d67e34;
-}
-.our-cooks-images {
-  display: flex;
-  justify-content: center;
-}
-.cook1 {
-  padding-right: 32px;
-}
-.cook2 {
-  padding-right: 32px;
 }
 
 .footer {
@@ -520,4 +464,31 @@ body {
   color: #fff;
   text-align: center;
   margin-top: 100px;
+}
+.galery-content {
+  display: flex;
+  justify-content: center;
+}
+.galery-left {
+  margin-right: 20px;
+}
+.galery-down,
+.galery-up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.cook-title{
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.cook-title span{
+  color: #d67e34;
+}
+.cook-content{
+  display: flex;
+  justify-content: space-around;
 }
