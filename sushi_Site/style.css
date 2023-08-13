@@ -277,8 +277,6 @@ body {
   background-repeat: no-repeat;
   padding: 80px 0px;
 }
-.left {
-}
 .left-title {
   color: #ff7400;
   font-family: "Tinos", serif;
@@ -289,8 +287,6 @@ body {
   color: #fff;
   font-weight: 700;
   font-size: 24px;
-}
-.right {
 }
 .right-btn {
   background-color: #ff7400;
@@ -311,7 +307,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.dishes-title{
+.dishes-title {
   font-family: "Tinos", serif;
   font-weight: 400;
   font-size: 52px;
@@ -319,23 +315,23 @@ body {
   padding-top: 132px;
   margin-bottom: 139px;
 }
-.dishes-title span{
- color: #D67E34;
+.dishes-title span {
+  color: #d67e34;
 }
-.burgers{
+.burgers {
   display: flex;
   text-align: center;
   justify-content: center;
 }
-.burger-item{
+.burger-item {
   display: flex;
   align-items: center;
   margin-bottom: 29px;
 }
-.burger-image{
+.burger-image {
   margin-right: 250px;
 }
-.burger-text{
+.burger-text {
   font-family: "Tinos", serif;
   font-weight: 400;
   font-size: 26px;
