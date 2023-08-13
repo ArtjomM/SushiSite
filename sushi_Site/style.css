@@ -273,7 +273,7 @@ body {
 }
 .black-block {
   background-image: url(bb.png);
-  background-size: 1920px;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 80px 0px;
 }
@@ -336,4 +336,188 @@ body {
   font-weight: 400;
   font-size: 26px;
   margin-left: 20px;
+}
+.menu {
+  background-image: url(menu-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.menu-title {
+  text-align: center;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 54px;
+  color: #fff;
+  padding-top: 98px;
+  padding-bottom: 138px;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+}
+.menu-item {
+  background-color: #fff;
+  text-align: center;
+  width: 33%;
+  padding-top: 80px;
+  width: 350px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+.reccommended-wrapper {
+  background-color: #d67e34;
+  padding: 7px 11px 12px 11px;
+  width: 124px;
+  margin-top: -80px;
+}
+.menu-image {
+  position: relative;
+  padding-top: 80px;
+}
+.menu-img {
+  border-radius: 50%;
+}
+.price-img {
+  position: absolute;
+  top: 205px;
+  left: 192px;
+}
+.price-420 {
+  position: absolute;
+  top: 239px;
+  left: 223px;
+  font-family: "Cookie", cursive;
+  font-size: 30px;
+  font-weight: 400;
+}
+.menu-text {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 26px;
+  padding-bottom: 17px;
+  padding-top: 16px;
+}
+.menu-subtext {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.menu-button {
+  padding-top: 20px;
+}
+
+.menu-btn {
+  background-color: #ff7400;
+  text-decoration: none;
+  color: #fff;
+  padding: 14px 67px;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s linear;
+}
+
+.menu-btn:hover {
+  background-color: #a25618;
+}
+.gray-block {
+  text-align: center;
+  background-color: #e5e5e5;
+}
+.guest-text {
+  padding-top: 104px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+.guest-img {
+  border-radius: 50%;
+}
+.guest-who {
+  padding-top: 17px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.guest-name {
+  padding-top: 9px;
+  padding-bottom: 139px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.dishes-title-with-images {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 54px;
+  text-align: center;
+  padding-top: 101px;
+  padding-bottom: 59px;
+}
+.dishes-title-with-images span {
+  color: #d67e34;
+  font-size: 52px;
+}
+.image-content {
+  display: flex;
+  justify-content: center;
+}
+.table1-1 {
+  padding-right: 11px;
+  width: 555px;
+  height: 284px;
+}
+.table1-2 {
+  padding-right: 11px;
+  height: 284px;
+}
+.table1-3 {
+  height: 284px;
+}
+.table2-1 {
+  padding-right: 11px;
+  width: 284px;
+  height: 284px;
+  padding-top: 11px;
+}
+.table2-2 {
+  padding-right: 11px;
+  width: 256px;
+  height: 282px;
+  padding-right: 11px;
+  padding-top: 11px;
+}
+.table2-3 {
+  width: 536px;
+  height: 284px;
+  padding-top: 11px;
+}
+.our-cooks {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 54px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 107px;
+}
+.our-cooks span {
+  color: #d67e34;
+}
+.our-cooks-images {
+  display: flex;
+  justify-content: center;
+}
+.cook1 {
+  padding-right: 32px;
+}
+.cook2 {
+  padding-right: 32px;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 50px 0px;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
 }
