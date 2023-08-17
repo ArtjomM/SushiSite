@@ -492,3 +492,75 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+
+@media (max-width: 1500px){
+  .galery-content{
+    display: block;
+  }
+  .img-gal,
+  .galery-up,
+  .galery-down{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-gal{
+    margin-bottom: 20px;
+  }
+  .galery-left{
+    margin-left: 0px;
+  }
+  .history-images{
+    margin-left: -160px;
+  }
+}
+
+@media(max-width: 1300px){
+ 
+ .header-title{
+  margin-top: 202px;
+ }
+ .history-images{
+  margin-left: -240px;
+}
+ 
+ 
+  .menu-items{
+    display: block;
+  }
+  .menu-item{
+    margin: 20px auto;
+    width: 600px;
+  }
+  .menu-img{
+    width: 300px;
+    height:300px;
+    margin: auto;
+  }
+  .menu{
+    margin: auto;
+  }
+  .price-img{
+    margin-left: 134px;
+    margin-top: 40px;
+    width: 144px;
+  }
+  .price-420{
+    margin-left: 152px;
+    margin-top: 55px;
+    font-size: 40px;
+  }
+  .menu-text{
+    padding-top: 30px;
+  }
+  .cook-img{
+    margin-right: 20px;
+  }
+}
+
+@media(max-width: 1200px){
+  .history-images{
+    margin-left: -320px;
+  }
+}
