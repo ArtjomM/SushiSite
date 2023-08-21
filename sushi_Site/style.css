@@ -478,89 +478,310 @@ body {
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.cook-title{
+.cook-title {
   font-family: "Tinos", serif;
   font-size: 54px;
   text-align: center;
   margin-bottom: 100px;
   margin-top: 100px;
 }
-.cook-title span{
+.cook-title span {
   color: #d67e34;
 }
-.cook-content{
+.cook-content {
   display: flex;
   justify-content: space-around;
 }
-
-
-@media (max-width: 1500px){
-  .galery-content{
+.burger-menu {
+  display: none;
+}
+@media (max-width: 3000px) {
+  .menu-mob {
+    display: none;
+  }
+}
+@media (max-width: 1500px) {
+  .left-text {
+    padding-bottom: 20px;
+  }
+  .right-button {
+    text-align: center;
+  }
+  .menu-mob {
+    display: none;
+  }
+  .galery-content {
     display: block;
   }
   .img-gal,
   .galery-up,
-  .galery-down{
+  .galery-down {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .img-gal{
+  .img-gal {
     margin-bottom: 20px;
   }
-  .galery-left{
+  .galery-left {
     margin-left: 0px;
   }
-  .history-images{
+  .history-images {
     margin-left: -160px;
   }
 }
 
-@media(max-width: 1300px){
- 
- .header-title{
-  margin-top: 202px;
- }
- .history-images{
-  margin-left: -240px;
-}
- 
- 
-  .menu-items{
+@media (max-width: 1300px) {
+  .menu-mob {
+    display: none;
+  }
+
+  .header-title {
+    margin-top: 123px;
+  }
+  .history-images {
+    margin-left: -300px;
+  }
+
+  .histry-desc {
+    font-size: 20px;
+  }
+  .history-number {
+    margin-top: 30px;
+  }
+  .menu-items {
     display: block;
   }
-  .menu-item{
+  .menu-item {
     margin: 20px auto;
     width: 600px;
   }
-  .menu-img{
+  .menu-img {
     width: 300px;
-    height:300px;
+    height: 300px;
     margin: auto;
   }
-  .menu{
+  .menu {
     margin: auto;
   }
-  .price-img{
+  .price-img {
     margin-left: 134px;
     margin-top: 40px;
     width: 144px;
   }
-  .price-420{
+  .price-420 {
     margin-left: 152px;
     margin-top: 55px;
     font-size: 40px;
   }
-  .menu-text{
+  .menu-text {
     padding-top: 30px;
   }
-  .cook-img{
+  .cook-img {
     margin-right: 20px;
   }
 }
 
-@media(max-width: 1200px){
-  .history-images{
-    margin-left: -320px;
+@media (max-width: 1200px) {
+  .menu-mob {
+    display: none;
+  }
+  .card-food {
+    width: 400px;
+  }
+  .header-logo {
+    margin-right: 20px;
+  }
+  .nav-item-last {
+    margin-right: -0px;
+  }
+  .cook-content {
+    display: block;
+  }
+  .cook-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .block-holder {
+    display: block;
+  }
+  .left-title,
+  .left-text {
+    text-align: center;
+  }
+  .right-btn {
+    text-align: center;
+    margin: auto;
+  }
+
+  .history-holder {
+    display: block;
+  }
+  .history-wrapper {
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .history-images {
+    margin-top: 90px;
+    margin-bottom: 400px;
+    text-align: center;
+  }
+  .burger-image {
+    margin-right: 30px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+  .nav,
+  .cart,
+  .phone-holder,
+  .number,
+  .phone-text,
+  .btn {
+    display: none;
+  }
+  .header-line {
+    justify-content: space-between;
+  }
+  .cook-title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .large-img {
+    display: none;
+  }
+  .dishes-title {
+    margin-top: -40px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .cards-holder {
+    display: block;
+  }
+  .card {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+  .history-images {
+    display: none;
+  }
+  .menu-item {
+    width: 100%;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-mob {
+    display: block;
+  }
+
+  .menu-mob {
+    background-image: url(menu-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+  }
+  .menu-title1 {
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: #fff;
+    padding-top: 98px;
+    padding-bottom: 138px;
+  }
+  .menu-items1 {
+    display: block;
+    justify-content: center;
+  }
+  .menu-item1 {
+    background-color: #fff;
+    text-align: center;
+    width: 33%;
+    padding-top: 80px;
+    width: 350px;
+    padding-bottom: 30px;
+    margin: 20px auto;
+  }
+  .reccommended-wrapper1 {
+    background-color: #d67e34;
+    padding: 7px 11px 12px 11px;
+    width: 124px;
+    margin-top: -80px;
+  }
+  .menu-image1 {
+    position: relative;
+    padding-top: 80px;
+    image-resolution: auto;
+  }
+  .menu-img1 {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+  .price-img1 {
+    position: absolute;
+    top: 205px;
+    left: 192px;
+  }
+  .menu-text1 {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-size: 26px;
+    padding-bottom: 17px;
+    padding-top: 16px;
+  }
+  .menu-subtext1 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+
+  .menu-button1 {
+    padding-top: 20px;
+  }
+
+  .menu-btn1 {
+    background-color: #ff7400;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 67px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s linear;
+  }
+
+  .menu-btn1:hover {
+    background-color: #a25618;
+  }
+}
+
+@media (max-width: 800px) {
+  .burger-image {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .history-title {
+    padding-bottom: 69px;
+  }
+  .history-number {
+    padding-top: 69px;
+  }
+  .menu-item1 {
+    width: auto;
+  }
+  .menu-img1 {
+    width: 100px;
+    height: 100px;
   }
 }
