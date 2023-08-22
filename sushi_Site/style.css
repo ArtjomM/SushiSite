@@ -570,6 +570,20 @@ button {
   display: none;
 }
 
+.nav-item-mob {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+
+  transition: color 0.3s linear;
+  text-align: center;
+}
+
+.nav-item:hover {
+  color: #dc1111;
+}
+
 @media (max-width: 3000px) {
   .menu-mob {
     display: none;
@@ -925,9 +939,19 @@ button {
   .right-button {
     margin-top: auto;
   }
+
+  .burger-slide {
+    text-align: center;
+    margin-left: -380px;
+  }
 }
 
-@media (max-width: 760px) {}
+@media (max-width: 760px) {
+  .burger-slide {
+    text-align: center;
+    margin-left: -353px;
+  }
+}
 
 @media (max-width: 700px) {
   .history-title {
@@ -962,11 +986,42 @@ button {
   .header-suptitle:after {
     content: none;
   }
+
+  .burger-slide {
+    text-align: center;
+    margin-left: -353px;
+  }
+}
+
+@media (max-width: 650px) {
+  .burger-slide {
+    margin-left: -318px;
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 600px) {
   .history-number {
     margin-top: 90px;
+  }
+
+  .burger-slide {
+    margin-left: -270px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .burger-slide {
+    margin-left: -267px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .burger-slide {
+    margin-left: -230px;
+    margin-top: 40px;
   }
 }
 
@@ -1007,6 +1062,11 @@ button {
   .galery-right {
     width: 100px;
   }
+
+  .burger-slide {
+    margin-left: -183px;
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 350px) {
@@ -1032,5 +1092,10 @@ button {
 
   .right-button {
     padding-top: 20px;
+  }
+
+  .burger-slide {
+    margin-left: -145px;
+    margin-top: 40px;
   }
 }
