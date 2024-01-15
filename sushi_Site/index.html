@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style-drop-menu.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
@@ -25,23 +26,31 @@
     <div class="container">
       <div class="header-line">
         <div class="header-logo">
-          <img src="LOGO.png" alt="" />
+          <img src="./photo/LOGO.png" alt="" />
         </div>
         <div class="nav">
           <a class="nav-item" href="">Главная</a>
-          <a class="nav-item" href="">Меню</a>
-          <a class="nav-item" href="">О нас</a>
+          <a class="nav-item" href="#our-menu">Меню</a>
+          <a class="nav-item" href="#about-us">О нас</a>
           <a class="nav-item nav-item-last" href="">Забронировать</a>
+          <div class="dropdown">
+            <button class="dropbtn">Язык</button>
+            <div class="dropdown-content">
+              <a href="">Русский</a>
+              <a href="english.html">Английский</a>
+              <a href="">Эстонский</a>
+            </div>
+          </div>
         </div>
         <div class="cart">
           <a href="">
-            <img src="cart.png" class="cart-img" alt="" />
+            <img src="./photo/cart.png" class="cart-img" alt="" />
           </a>
         </div>
         <div class="phone">
           <div class="phone-holder">
             <div class="phone-img">
-              <img src="phone.png" alt="" />
+              <img src="./photo/phone.png" alt="" />
             </div>
             <div class="number">
               <a class="num" href="#">+999-888-76-54</a>
@@ -56,7 +65,7 @@
         </div>
         <div class="burger-menu">
           <button id="burger">
-            <img src="burger-img.png" alt="" />
+            <img src="./photo/burger-img.png" alt="" />
           </button>
 
           <div id="menu" class="burger-slide disp">
@@ -74,7 +83,7 @@
           <div class="header-subtitle">Наш ресторан</div>
           <div class="header-suptitle">Дом лучшей еды</div>
           <div class="header-btn">
-            <a class="header-button" href="">Посмотреть меню</a>
+            <a class="header-button" href="#our-menu">Посмотреть меню</a>
           </div>
         </div>
       </div>
@@ -86,7 +95,7 @@
       <div class="cards-holder">
         <div class="card">
           <div class="card-image">
-            <img class="card-img" src="card.png" alt="" />
+            <img class="card-img" src="./photo/card.png" alt="" />
           </div>
           <div class="card-title">Магическая <span>Атмосфера</span></div>
           <div class="card-desc">
@@ -96,14 +105,14 @@
         </div>
         <div class="card card-food">
           <div class="card-image">
-            <img class="card-img" src="card.png" alt="" />
+            <img class="card-img" src="./photo/card.png" alt="" />
           </div>
           <div class="card-title food">Лучшее качество<span>Еды</span></div>
           <div class="card-desc">Качество нашей Еды - отменное!</div>
         </div>
         <div class="card">
           <div class="card-image">
-            <img class="card-img" src="card.png" alt="" />
+            <img class="card-img" src="./photo/card.png" alt="" />
           </div>
           <div class="card-title">Недорогая <span>Еда</span></div>
           <div class="card-desc">
@@ -118,7 +127,7 @@
     <div class="container">
       <div class="history-holder">
         <div class="history-wrapper">
-          <div class="history-title">Наша <span>История</span></div>
+          <div class="history-title" id="about-us">Наша <span>История</span></div>
           <div class="histry-desc">
             Как и у любого другого самобытного места, у нас есть своя, особая
             история. Идея ресторана пришла основателям неожиданно. Во время
@@ -134,9 +143,9 @@
           </div>
         </div>
         <div class="history-images">
-          <img class="imgages-1" src="1.png" alt="" />
-          <img class="imgages-2" src="2.png" alt="" />
-          <img class="imgages-3" src="3.png" alt="" />
+          <img class="imgages-1" src="./photo/1.png" alt="" />
+          <img class="imgages-2" src="./photo/2.png" alt="" />
+          <img class="imgages-3" src="./photo/3.png" alt="" />
         </div>
       </div>
     </div>
@@ -164,22 +173,22 @@
 
   <div class="dishes">
     <div class="container">
-      <div class="dishes-title">Наши <span>блюда</span></div>
+      <div class="dishes-title" id="our-menu">Наши <span>блюда</span></div>
       <div class="burgers">
         <div class="burger-image">
-          <img src="pizza.png" alt="" class="pizza" />
+          <img src="./photo/pizza.png" alt="" class="pizza" />
         </div>
         <div class="burger-items">
           <div class="burger-item">
-            <img src="burger.png" alt="" class="burger" />
+            <img src="./photo/burger.png" alt="" class="burger" />
             <div class="burger-text">Гамбургер мини -------- 220 ₽</div>
           </div>
           <div class="burger-item">
-            <img src="burger.png" alt="" class="burger" />
+            <img src="./photo/burger.png" alt="" class="burger" />
             <div class="burger-text">Гамбургер мини -------- 220 ₽</div>
           </div>
           <div class="burger-item">
-            <img src="burger.png" alt="" class="burger" />
+            <img src="./photo/burger.png" alt="" class="burger" />
             <div class="burger-text">Гамбургер мини -------- 220 ₽</div>
           </div>
         </div>
@@ -196,9 +205,9 @@
             <div class="recommended">Рекоммендуем</div>
           </div>
           <div class="menu-image">
-            <img src="menu-item.png" alt="" class="menu-img" />
+            <img src="./photo/menu-item.png" alt="" class="menu-img" />
             <div class="price">
-              <img src="price.png" alt="" class="price-img" />
+              <img src="./photo/price.png" alt="" class="price-img" />
               <div class="price-420">420</div>
             </div>
           </div>
@@ -213,9 +222,9 @@
         </div>
         <div class="menu-item">
           <div class="menu-image">
-            <img src="menu-item.png" alt="" class="menu-img" />
+            <img src="./photo/menu-item.png" alt="" class="menu-img" />
             <div class="price">
-              <img src="price.png" alt="" class="price-img" />
+              <img src="./photo/price.png" alt="" class="price-img" />
               <div class="price-420">420</div>
             </div>
           </div>
@@ -230,9 +239,9 @@
         </div>
         <div class="menu-item">
           <div class="menu-image">
-            <img src="menu-item.png" alt="" class="menu-img" />
+            <img src="./photo/menu-item.png" alt="" class="menu-img" />
             <div class="price">
-              <img src="price.png" alt="" class="price-img" />
+              <img src="./photo/price.png" alt="" class="price-img" />
               <div class="price-420">420</div>
             </div>
           </div>
@@ -259,7 +268,7 @@
             <div class="recommended1">Рекоммендуем</div>
           </div>
           <div class="menu-image1">
-            <img src="burger-i.png" alt="" class="menu-img1" />
+            <img src="./photo/burger-i.png" alt="" class="menu-img1" />
           </div>
           <div class="menu-text1">Гамбургер макси</div>
           <div class="menu-subtext1">
@@ -272,7 +281,7 @@
         </div>
         <div class="menu-item1">
           <div class="menu-image1">
-            <img src="burger-i.png" alt="" class="menu-img1" />
+            <img src="./photo/burger-i.png" alt="" class="menu-img1" />
           </div>
           <div class="menu-text1">Гамбургер макси</div>
           <div class="menu-subtext1">
@@ -285,7 +294,7 @@
         </div>
         <div class="menu-item1">
           <div class="menu-image1">
-            <img src="burger-i.png" alt="" class="menu-img1" />
+            <img src="./photo/burger-i.png" alt="" class="menu-img1" />
           </div>
           <div class="menu-text1">Гамбургер макси</div>
           <div class="menu-subtext1">
@@ -312,7 +321,7 @@
         путешествующих в Санкт-Петербург!!!
       </div>
       <div class="comment-image">
-        <img src="guest.png" alt="" class="comment-img" />
+        <img src="./photo/guest.png" alt="" class="comment-img" />
       </div>
       <div class="comment-type">Посетитель</div>
       <div class="comment-name">Николай</div>
@@ -326,20 +335,20 @@
       <div class="galery-content">
         <div class="galery-left">
           <div class="galery-up">
-            <img class="img-gal large-img" src="table1.png" alt="" />
+            <img class="img-gal large-img" src="./photo/table1.png" alt="" />
           </div>
           <div class="galery-down">
-            <img class="img-gal" src="table2.png" alt="" />
-            <img class="img-gal" src="table3.png" alt="" />
+            <img class="img-gal" src="./photo/table2.png" alt="" />
+            <img class="img-gal" src="./photo/table3.png" alt="" />
           </div>
         </div>
         <div class="galery-right">
           <div class="galery-up">
-            <img class="img-gal" src="table2.png" alt="" />
-            <img class="img-gal" src="table3.png" alt="" />
+            <img class="img-gal" src="./photo/table2.png" alt="" />
+            <img class="img-gal" src="./photo/table3.png" alt="" />
           </div>
           <div class="galery-down">
-            <img class="img-gal large-img" src="table1.png" alt="" />
+            <img class="img-gal large-img" src="./photo/table1.png" alt="" />
           </div>
         </div>
       </div>
@@ -349,9 +358,9 @@
     <div class="container">
       <div class="cook-title">Наши <span>Повара</span></div>
       <div class="cook-content">
-        <img class="cook-img" src="cook1.png" alt="" />
-        <img class="cook-img" src="cook2.png" alt="" />
-        <img class="cook-img" src="cook3.png" alt="" />
+        <img class="cook-img" src="./photo/cook1.png" alt="" />
+        <img class="cook-img" src="./photo/cook2.png" alt="" />
+        <img class="cook-img" src="./photo/cook3.png" alt="" />
       </div>
     </div>
   </div>
